@@ -9,7 +9,6 @@ public class SplashActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         try {
             Thread.sleep(4000); //4초 동안 액티비티 유지
         } catch (InterruptedException e) {
